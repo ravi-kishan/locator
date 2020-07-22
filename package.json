@@ -1,5 +1,5 @@
 {
-  "name": "locator",
+  "name": "@ravik1/locator",
   "version": "0.0.0-development",
   "description": "",
   "main": "lib/index.js",
