@@ -31,6 +31,7 @@ export function cached(entryPoint:string) {
             const cipherChars = [...hash]; // convert into array
             cipherChars[index] = '1'; // alter array
             hash = cipherChars.join(); // convert back into string
+            console.log(hash);
         }
     })
 }
