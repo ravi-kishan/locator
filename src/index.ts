@@ -10,6 +10,7 @@ function setup() {
 export function register(entryPoint:string) {
     entryPoints.push(entryPoint);
     hash = hash + '0';
+    setup();
 }
 
 export function getHash() {
