@@ -33,3 +33,13 @@ export function cached(entryPoint:string) {
         }
     })
 }
+
+export function lazyCall(entryPoint:string) {
+    var script = entryPoint;
+    script += "?";
+    script += "v=" + version;
+    script += "&";
+    script += "hash=" + hash;
+    cached(entryPoint);
+    return script;
+}
