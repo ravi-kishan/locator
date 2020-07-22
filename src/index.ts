@@ -37,6 +37,11 @@ export function cached(entryPoint:string) {
 }
 
 export function lazyCall(entryPoint:string) {
+    entryPoints.forEach((value,index,array) => {
+        if(value == entryPoint) {
+           if(hash[index] == '1')return "";
+        }
+    })
     var script = entryPoint;
     script += "?";
     script += "v=" + version;
