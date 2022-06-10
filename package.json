@@ -33,7 +33,7 @@
     "esm": "^3.2.25",
     "ghooks": "^2.0.4",
     "nyc": "^15.1.0",
-    "semantic-release": "^17.1.1",
+    "semantic-release": "^19.0.3",
     "typescript": "^3.7.3"
   },
   "repository": {
